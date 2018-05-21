@@ -1,0 +1,10 @@
+project: hello-solidity
+chain: ethereum
+backend: geth
+envs:
+  local:
+    networkID: 999
+    datadir: double/local
+    local: true
+    host: 127.0.0.1
+    port: 30303
